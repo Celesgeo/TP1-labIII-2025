@@ -5,25 +5,25 @@
     text-align: center;   
 }
 body{
-    background-color: rgb(247, 218, 160);
+    background-color: rgb(160, 204, 247);
     text-align: center;}
 .header.logo.color{
     font-weight: bold;
     font-size: 40px;
     font-family:"yelowtail";
-    text-shadow: 0 0 35px rgb(81, 64, 35);
+    text-shadow: 0 0 35px rgb(35, 66, 81);
 }
 .boton{
-    border: 1px solid brown;
+    border: 1px solid rgba(240, 245, 247, 0.317);
     background-color: beige;
     padding:14px 4px;
     text-decoration: none;
     font-family: fantasy;
-    color:brown
+    color:rgb(161, 153, 153)
 
 }
 .header{
-    color:rgb(88, 52, 52);
+    color:rgb(132, 129, 129);
     text-align: center;
 
 }
@@ -38,12 +38,12 @@ body{
     margin:auto;
     padding:10px 10px;
     padding-bottom: 50px;
-    box-shadow:1px 1px 10px chocolate;
+    box-shadow:1px 1px 10px rgb(30, 210, 183);
     text-align: center;
 }
 .icons{
     padding:20px 0 ;
-    color:brown;
+    color:rgb(30, 210, 183);
 }
 .icons i{
     margin:0 5px;
@@ -52,7 +52,7 @@ body{
 .sección p{
     margin-bottom:10px ;
     text-align: center;
-    background-color: brown;
+    background-color: rgb(121, 115, 115);
     font-family:"yelowtail";
 }
 .btns{
@@ -71,7 +71,7 @@ padding: 20px 0;
 footer{
     position:fixed;
     bottom:0;
-    background-color: rgb(147, 101, 44);
+    background-color: rgb(30, 210, 183);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,4 +81,28 @@ footer{
 .textop{
     background-color: rgb(114, 240, 145);
     border: 50px 0;
+}
+.tabla-cursos {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+.tabla-cursos th, .tabla-cursos td {
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-cursos th {
+    background-color: #a0cff7;
+    color: #333;
+    font-weight: bold;
+}
+
+.tabla-cursos tr:hover {
+    background-color: #d9eaff;
 }
