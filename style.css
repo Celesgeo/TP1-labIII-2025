@@ -11,15 +11,15 @@ body{
     font-weight: bold;
     font-size: 40px;
     font-family:"yelowtail";
-    text-shadow: 0 0 35px rgb(35, 66, 81);
+    text-shadow: 0 0 35px rgb(12, 84, 146);
 }
 .boton{
-    border: 1px solid rgba(240, 245, 247, 0.317);
-    background-color: beige;
+    border: 1px solid rgb(57, 178, 226);
+    background-color: rgb(244, 246, 247);
     padding:14px 4px;
     text-decoration: none;
     font-family: fantasy;
-    color:rgb(161, 153, 153)
+    color:rgb(54, 208, 235)
 
 }
 .header{
@@ -52,7 +52,7 @@ body{
 .sección p{
     margin-bottom:10px ;
     text-align: center;
-    background-color: rgb(121, 115, 115);
+    background-color: rgb(60, 244, 253);
     font-family:"yelowtail";
 }
 .btns{
@@ -63,7 +63,7 @@ padding: 20px 0;
     margin: 50px 0px ;
 }
 .contenido h3{
-    color: brown;
+    color: rgb(64, 196, 220);
     background-color: blanchedalmond;
     text-align: center;
     font-family:monospace;
@@ -105,4 +105,53 @@ footer{
 
 .tabla-cursos tr:hover {
     background-color: #d9eaff;
+}
+main {
+    background-color: white;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px lightgray;
+    font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+    color: darkslategray;
+    text-align: center;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: seagreen;
+    color: white;
+    padding: 10px 16px;
+    margin: 10px 5px 0 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+button:hover {
+    background-color: mediumseagreen;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
 }
