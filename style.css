@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;   
+}
+body{
+    background-color: rgb(247, 218, 160);
+    text-align: center;}
+.header.logo.color{
+    font-weight: bold;
+    font-size: 40px;
+    font-family:"yelowtail";
+    text-shadow: 0 0 35px rgb(81, 64, 35);
+}
