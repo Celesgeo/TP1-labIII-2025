@@ -13,3 +13,23 @@ body{
     font-family:"yelowtail";
     text-shadow: 0 0 35px rgb(81, 64, 35);
 }
+.boton{
+    border: 1px solid brown;
+    background-color: beige;
+    padding:14px 4px;
+    text-decoration: none;
+    font-family: fantasy;
+    color:brown
+
+}
+.header{
+    color:rgb(88, 52, 52);
+    text-align: center;
+
+}
+.header img{
+    text-align: center;
+    width: 200px;
+    border: solid 3px white;
+    border-radius: 50%;
+    }
